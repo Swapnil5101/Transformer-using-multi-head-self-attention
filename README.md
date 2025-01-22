@@ -35,7 +35,7 @@ To use the cnn_Transformer model, follow these steps:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/sm1899/cnn_Transformer-classification.git
+   git clone https://github.com/Swapnil5101/cnn_Transformer-classification.git
    ```
 
 2. Install the required dependencies:
@@ -74,7 +74,15 @@ print(output.shape)
 
 ## Results
 
-The cnn_Transformer model has been evaluated on Esc-50 urban sound dataset with various hyeprparametrs, models. Detailed results and comparisons can be found out in the jupyter notebook given.
+The cnn_Transformer model has been evaluated on Esc-50 urban sound dataset with various hyeprparametrs and different models. 
+
+Test Accuracies:
+53.75% (2-head case) and 57.5% (4-head case).
+
+F1 Scores (approx.):
+50.83 (2-head case) and 57.45 (4-head case). 
+
+Detailed results and comparisons can be found out in the jupyter notebook given.
 
 
 ## License
